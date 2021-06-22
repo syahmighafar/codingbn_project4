@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="icon" href="img/snakelogo.jpg">
+
+        <title>Snake! - Difficulty</title>
+    
+    </head>
+    
+    <body">
+
+    <div class="container-fluid">
+        <div class="row border border-white" id="gameDiff">
+            <div class="col-sm-12">
+                <h2>CHOOSE YOUR DIFFICULTY</h2>
+                <br>
+            </div>
+
+            <div class="col-sm-4 border border-success">
+                <a href="gameAreaEasy.html"><button id="easyButton" type="button" class="btn btn-success">Easy</button></a>
+                <br><br>
+                <p>Highscore: </p>
+                <p id="easyhighscoreResult"></p>
+            </div>
+            <div class="col-sm-4 border border-warning">
+                <a href="gameAreaNormal.html"><button id="normalButton" type="button" class="btn btn-warning">Normal</button></a>
+                <br><br>
+                <p>Highscore:</p>
+                <p id="normalhighscoreResult"></p>
+            </div>
+            <div class="col-sm-4 border border-danger">
+                <a href="gameAreaHard.html"><button id="hardButton" type="button" class="btn btn-danger">Hard</button></a>
+                <br><br>
+                <p>Highscore:</p>
+                <p id="hardhighscoreResult"></p>
+            </div>
+            <div class="col-sm-12">
+                <br>
+                <a href="index.html"><button id="backButton" type="button" class="btn btn-light">Back</button></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/showHs.js"></script>
+    </body>
+    
+</html>

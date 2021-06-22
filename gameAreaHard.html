@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="icon" href="img/snakelogo.jpg">
+
+        <title>Snake! - Hard</title>
+    
+    </head>
+    
+    <body">
+
+    <div class="container-fluid">
+        
+        <div class="row" id="titleArea">
+            <div class="col-sm-12">
+                <h2>Hard</h2>
+            </div>
+        </div>
+        
+        <div class="row" id="scoreArea">
+            <div class="col-sm-12">
+                <h2>Your snake died <br><br><img src="img/snakeLose.jpg" class="img-fluid rounded mx-auto d-block" alt=""></h2>
+                <br>
+                <p>___________________________</p>
+                <h3>Results</h3>
+                <br>
+                <h5>Your Score:</h5>
+                <p id="scoreResult"></p>
+                <br>
+                <h5>Highscore:</h5>
+                <p id="hardhighscoreResult"></p>
+                <p id="beatHs">Congratulations, <br> you beat the highscore! <br><br><img src="img/snakewin.jpg" class="img-fluid rounded mx-auto d-block" alt=""></p>
+                <p>___________________________</p>
+            </div>
+            
+        </div>
+
+        <div class="row" id="gameArea">
+            <div class="col-sm-12">
+                <canvas id="snake" width="608" height="608"></canvas>
+            </div>
+        </div>
+
+
+        <div class="row" id="menuArea">
+            <div class="col-sm-12">
+                <button id="hardButton" type="button" class="btn btn-success">Start</button>
+                <br><br>
+            </div>
+
+            <div class="col-sm-12">
+                <br>
+                <a href="gameDiff.html"><button id="backButton" type="button" class="btn btn-light">Change Difficulty</button></a>
+            </div>
+
+            <div class="col-sm-12">
+                <br>
+                <a href="index.html"><button id="backButton" type="button" class="btn btn-light">Return to main menu</button></a>
+            </div>
+        </div>
+
+        
+
+
+    </div>
+
+        <script src="js/snakehard.js"></script>
+    </body>
+    
+</html>

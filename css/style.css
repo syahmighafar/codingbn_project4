@@ -1,0 +1,101 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#snake{
+    width: 100%;
+    height: auto;
+    max-width: 608px;
+}
+
+h1{
+    text-align: left;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+h4{
+    text-align: center;
+    color: white;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+
+h6{
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+#snake{
+    display: block;
+    margin: 0 auto;
+}
+
+#gameMenu{
+    text-align: center;
+    line-height: 1.6;
+    padding: 30px;
+}
+
+#gameIns{
+    text-align: center;
+    line-height: 1.6;
+    padding: 30px;
+    color: white;
+}
+
+#gameDiff{
+    text-align: center;
+    line-height: 1.6;
+    padding: 30px;
+    color: white;
+}
+
+#menuArea{
+    text-align: center;
+    line-height: 1.6;
+    padding: 30px;
+    color: white;
+}
+
+#scoreArea{
+    text-align: center;
+    line-height: 1.6;
+    padding: 30px;
+    color: white;
+}
+
+#titleArea{
+    text-align: center;
+    line-height: 1.6;
+    padding: 30px;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    background-color: rgb(22, 22, 22);
+  }
